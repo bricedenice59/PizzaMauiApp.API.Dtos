@@ -42,7 +42,7 @@ jobs:
       uses: actions/upload-artifact@v4.2.0
       with:
         name: nugetPackage
-        path: PizzaMauiApp.API.Dtos/bin/Release/ 
+        path: PizzaMauiApp.API.Dtos/bin/Release/net8.0/ 
         
   release:
     runs-on: ubuntu-latest    
